@@ -64,7 +64,7 @@ class CustomerController
     }
 
     /**
-     * @Route("/get-all", name="get_all_customers", methods={"GET"})
+     * @Route("/get", name="get_all_customers", methods={"GET"})
      */
     public function getAllCustomers(): JsonResponse
     {
